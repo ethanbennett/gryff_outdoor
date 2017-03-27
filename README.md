@@ -1,24 +1,48 @@
-# README
+# Gryff Outdoor
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Gryff Outdoor!  We created an e-commerce platform for outdoor gear using Rails and PostgreSQL.
 
-Things you may want to cover:
+## Collecting the Data
+Our application collects products by utilizing:
+<br>
+1)  Admin input through our web app, on which a user can create a new product to be sold
+<br>
+2)  A seed file with example products that could be sold on our website
 
-* Ruby version
+## Setup Instructions
+Run these commands in this order:
+```
+git clone git@github.com:DavidKnott/gryff_outdoor.git
+cd gryff_outdoor
+bundle
+rails db:create
+rails db:migrate
+rails db:seed
+rails db:test:prepare
+```
 
-* System dependencies
+## Deployment instructions
+To launch the project on local host, start up the rails server and visit the root path.
+```
+rails s
+```
 
-* Configuration
+## How to Run the Test Suite
+Run rspec from the command line:
+```
+rspec
+```
 
-* Database creation
+## Tools/Technologies used
+* Git/GitHub
+* Waffle.io
+* HTML, CSS, Bootstrap
+* Ruby on Rails and ERB templates
+* ActiveRecord
+* PostgreSQL
+* Rspec
+* Capybara
+* Omniauth
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Project Team
+[David](https://github.com/ethanbennett), [David](https://github.com/DavidKnott), [Jesse](https://github.com/Sh1pley), [Brett](https://github.com/riverswb)
