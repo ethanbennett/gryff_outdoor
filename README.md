@@ -45,4 +45,4 @@ rspec
 * Omniauth
 
 ## Project Team
-[David](https://github.com/ethanbennett), [David](https://github.com/DavidKnott), [Jesse](https://github.com/Sh1pley), [Brett](https://github.com/riverswb)
+[Ethan](https://github.com/ethanbennett), [David](https://github.com/DavidKnott), [Jesse](https://github.com/Sh1pley), [Brett](https://github.com/riverswb)
